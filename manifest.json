@@ -1,0 +1,11 @@
+{
+  "name" : "Reader Restore",
+  "version" : "1.0",
+  "description" : "Restores Google Reader back to the menu in Google Mail",
+  "content_scripts": [
+    {
+      "matches": ["https://mail.google.com/mail/*"],
+      "js": ["jquery.js","reader_restore.js"]
+    }
+  ]
+}
